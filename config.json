@@ -1,0 +1,9 @@
+{
+  "PICOVOICE_ACCESS_KEY": "3bXOueBlkSVHSOsbJEPsSq8FTBmOrQCYuL4t4HLmV/Gn/MiPRE6V8A==",
+  "PICOVOICE_KEYWORD_PATH": "/home/hr_894/jarvis/JARVIS_en_linux_v3_0_0.ppn",
+  "JARVIS_NAME": "Jarvis",
+  "USER_NAME": "Sir",
+  "SPEAKER_EMBED_PATH": "/home/hr_894/jarvis/speaker_embed.npy",
+  "MODE": "balanced",
+  "PICOVOICE_SENSITIVITY": 0.85
+}

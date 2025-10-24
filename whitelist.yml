@@ -1,0 +1,28 @@
+safe_commands:
+  - name: "check_date"
+    script: "/usr/bin/date"
+    args: ["+%A, %B %d, %Y"] # Date format
+    message: "Aaj ki tareekh hai"
+
+  - name: "check_ram"
+    script: "/usr/bin/free"
+    args: ["-h"]
+    message: "Yeh raha system memory status."
+
+  - name: "check_disk"
+    script: "/usr/bin/df"
+    args: ["-h", "/"]
+    message: "Yeh raha aapka disk (storage) status."
+
+danger_commands:
+  - name: "update_system"
+    script: "/usr/bin/sudo"
+    args: ["apt", "update"]
+    requires_auth: true
+    confirm_prompt: "Sir, kya main system update shuru karun?"
+
+  - name: "reboot_system"
+    script: "/sbin/reboot"
+    args: []
+    requires_auth: true
+    confirm_prompt: "WARNING! Kya main system ko reboot karun?"

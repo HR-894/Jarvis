@@ -1,0 +1,15 @@
+# Models and dependencies
+piper-voices/
+whisper/
+llama.cpp/
+whisper.cpp/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp files
+*.wav
+*.raw
+*.npy
+temp_*.txt
