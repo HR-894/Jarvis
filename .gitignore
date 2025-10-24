@@ -1,4 +1,5 @@
 # Models and dependencies
+piper/
 piper-voices/
 whisper/
 llama.cpp/
