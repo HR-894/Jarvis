@@ -1,0 +1,7 @@
+pvporcupine
+webrtcvad-wheels
+sounddevice
+numpy
+resemblyzer
+PyYAML
+soundfile
